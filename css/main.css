@@ -1,0 +1,76 @@
+body{
+	font-family: 'lato';
+	color: #111;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.vertical-align{
+	position: relative;
+	top: 35%;
+	transform: translateY(-50%);
+}
+
+#home {
+	
+	background: url(../images/header-background1.jpg) fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	height: 700px;
+	
+}
+#home h1{
+	font-size: 3em;
+font-weight: 900;
+}
+#home .learn-more{
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+}
+
+.learn-more .fa{
+	position: absolute;
+}
+.learn-more .second-arrow{
+	 top:8px;
+}.learn-more .third-arrow{
+	 top:16px;
+}
+
+#nav{
+		margin-top: 50px;
+		height: 150px;
+}
+#nav div{
+	font-weight: 900;
+	font-size: 1.5em;
+}
+
+#courses {
+	margin:50px 0;
+}
+#courses img{
+	height: 30px;
+}
+
+#footer{
+	background: url(../images/footerbg.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	padding: 50px 0;
+
+}
+#footer li{
+	display: inline-block;
+}
+#footer ul a{
+	font-size: 30px;
+	color: #111;
+	padding: 0 10px;
+}
