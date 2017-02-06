@@ -76,6 +76,9 @@ font-weight: 900;
 .course-list a{
 	text-decoration: none;
 }
+#courses hr{
+	margin-right: 30%;
+}
 
 #footer{
 	background: url(../images/footerbg.png);
