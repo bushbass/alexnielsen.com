@@ -13,7 +13,7 @@ body{
 
 #home {
 	
-	background: url(../images/header-background1.jpg) fixed;
+	/*background: url(../images/header-background1.jpg) fixed;*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -22,12 +22,35 @@ body{
 	
 }
 .shadow {
-    text-shadow: 2px 2px #aabbff;
+    text-shadow: 1px 1px #aabbff;
 }
 #home h1{
-	font-size: 3em;
+	font-size: 4em;
 font-weight: 900;
+color: #000;
 }
+#home h3 {
+	font-size: 3em;
+font-weight: 300;
+color: #000;
+}
+
+i {
+	color: #000;
+}
+
+a { 
+text-decoration: none;
+ }
+ a:hover:not(.learn-more) {
+ 	text-decoration: none;
+ 	position: relative;
+  left: 1px;
+  top: -1px;
+  text-shadow: 1.5px 1.5px #ddd;
+  }
+
+
 #home .learn-more{
 	color: #fff;
 	font-size: 30px;
@@ -44,7 +67,7 @@ font-weight: 900;
 }
 
 #nav{
-		margin-top: 50px;
+		margin: 110px 0 80px 0;
 		height: 150px;
 }
 #nav div{
@@ -52,9 +75,13 @@ font-weight: 900;
 	font-weight: 900;
 	font-size: 1.5em;
 }
+.navText {
+	font-weight: 300;
+	font-size: .7em;
+}
 #about {
 	
-	background: url(../images/about-background.jpg) fixed;
+	/*background: url(../images/about-background.jpg) fixed;*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -66,6 +93,7 @@ font-weight: 900;
 }
 #about p{
 	margin-bottom: 50px;
+	font-size: 15px;
 }
 #courses {
 	margin:50px 0;
@@ -79,9 +107,8 @@ font-weight: 900;
 .course-list{
 	text-align: left;
 }
-.course-list a{
-	text-decoration: none;
-}
+
+
 #courses hr{
 	margin-right: 30%;
 }

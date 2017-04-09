@@ -42,7 +42,7 @@
    
 
     <!-- Name and description -->
-   <header id="home">
+   <header id="home" class="parallax-window" data-parallax="scroll" data-image-src="images/header-background1.jpg">
       <div class="vertical-align container text-center">
           <h1 class="shadow">Alex Nielsen</h1>
           <h3 class="shadow">Web Developer, Dad, homeschool teacher, handyman, gardener, band nerd, jedi...
@@ -58,15 +58,18 @@
 <!-- Navigation -->
   <section id="nav">
   <div class="vertical-align row text-center">
-        <div class="col-md-4"><a href="#about">About Me</a></div>
-        <div class="col-md-4"><a href="#courses">Projects</a></div>
-        <div class="col-md-4"><a href="#services">Services</a></div>
+        <div class="col-md-4"><a href="#about">About Me</a>
+          <p class="navText">Who I am and a little about my background</p></div>
+        <div class="col-md-4"><a href="#courses">Projects</a>
+        <p class="navText">What I've been working on</p></div>
+        <div class="col-md-4"><a href="#services">Services</a>
+        <p class="navText">What can I do for you?</p></div>
         
   </div>
 </section>
 
   <!-- About Me -->
-<section id="about">
+<section id="about" class="parallax-window" data-parallax="scroll" data-image-src="images/about-background.jpg">
 <div class="container text-center">
 
 <div class="row">
@@ -91,7 +94,7 @@
 
 <div class="row">
   
-  <div class="col-sm-4"><h3><a href="http://www.techwithtris.com/projects/2017/03/12/30-days-30-sites.html">30 Days, 30 Sites</a><h3/>
+  <div class="col-sm-4"><h3><a href="http://www.techwithtris.com/projects/2017/03/12/30-days-30-sites.html">30 Days, 30 Sites</a></h3>
   <p>This is a project I came across on the Facebook group <a href="https://www.facebook.com/groups/1594816820775537/">Newbie Coder Warehouse.</a>  There are similar challenges I've seen out there on the web but this one is, well, just like it sounds, making 30 simple websites in 30 days.  I've started a seperate page to <a href="30-days-30-sites-b.html">link to my 30 projects</a></p> 
   </div>
   <div class="col-sm-4"><h3><a href="http://alexnielsen.com/weather/">Free Code Camp Weather App</a></h3>
@@ -111,7 +114,7 @@
 <h3 class="shadow">Completed Courses</h3>
 <p>Over the past few months I have been learning as much as I can about web development.  Here is a list of some of the courses and tutorials I have been working on.</p><hr>
 
-<p><a href="https://watchandcode.com/p/practical-javascript">Watch and Code - Pracitcal JavaScrite</a></p><p>This is one of the best beginner JavaScripte courses I have come across.  I highly recommend this to anyone who wants to get a good jump on making things happen without having to suffer through Hellow World for the millionth time.</p><hr>
+<p><a href="https://watchandcode.com/p/practical-javascript">Watch and Code - Practical JavaScript</a></p><p>This is one of the best beginner JavaScripte courses I have come across.  I highly recommend this to anyone who wants to get a good jump on making things happen without having to suffer through Hellow World for the millionth time.</p><hr>
 <p><img src="images/coursera-logo.svg">
 </p>
 <a href="https://www.coursera.org/learn/html/home/welcome">
@@ -257,6 +260,7 @@ Learn Object-Oriented Programming
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/parallax.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
